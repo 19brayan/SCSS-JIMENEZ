@@ -1,0 +1,23 @@
+.card{
+    background-color: yellow;
+    margin: 1rem;
+    border-radius: 15px;
+    width: $ancho;
+    padding: 2rem;
+    &:hover{
+        background-color: lighten($color: yellow, $amount: 10)
+    }
+    p{
+        @extend %estiloParrafo;
+    }
+    button{
+        @include btn-verMas
+    }
+}
+
+@media (max-width: 650px){
+    .card{
+        width: $ancho/2;
+        margin: 1rem auto;
+    }
+}

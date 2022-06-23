@@ -1,0 +1,20 @@
+.header{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__img{
+        margin-left: 1remx;
+    }
+    &__ul{
+        display: flex;
+        list-style: none;
+        
+        li{
+            padding: 1rem;
+        }
+        &--active{
+            font-weight: bold;
+        }
+    }
+}

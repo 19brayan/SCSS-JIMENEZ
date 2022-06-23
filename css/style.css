@@ -1,3 +1,41 @@
 * {
   margin: 0;
   padding: 0; }
+
+.card p {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px; }
+
+.header {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header__img {
+    margin-left: 1remx; }
+  .header__ul {
+    display: flex;
+    list-style: none; }
+    .header__ul li {
+      padding: 1rem; }
+    .header__ul--active {
+      font-weight: bold; }
+
+.card {
+  background-color: yellow;
+  margin: 1rem;
+  border-radius: 15px;
+  width: 100vw;
+  padding: 2rem; }
+  .card:hover {
+    background-color: #ffff33; }
+  .card button {
+    padding: 1rem;
+    background-color: darkblue;
+    color: aliceblue; }
+
+@media (max-width: 650px) {
+  .card {
+    width: 50vw;
+    margin: 1rem auto; } }
