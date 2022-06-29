@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap");
 * {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0; }
 
@@ -13,7 +15,7 @@
   justify-content: space-between;
   align-items: center; }
   .header__img {
-    margin-left: 1remx; }
+    margin-left: 1rem; }
   .header__ul {
     display: flex;
     list-style: none; }
@@ -26,7 +28,7 @@
   background-color: yellow;
   margin: 1rem;
   border-radius: 15px;
-  width: 100vw;
+  width: 60vw;
   padding: 2rem; }
   .card:hover {
     background-color: #ffff33; }
@@ -37,5 +39,5 @@
 
 @media (max-width: 650px) {
   .card {
-    width: 50vw;
+    width: 30vw;
     margin: 1rem auto; } }
